@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 16px;
+    background-color: #C6A969;
+}
+
+.language {
+    margin: 10px, 5px;
+    padding: 20px;
+    background-color: #E4E4D0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #597E52;
+    text-shadow: 1px 2px gray;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: #597E52;
+}
+
+p {
+    color: #76453B;
+}
+
+table {
+    background-color: white;
+    padding: 10px;
+    border: #597E52 solid;
+}
+
+td {
+    padding: 2.5px;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F1E4C3;
+    color: black;
+    font-weight: 800;
+}
+
+th {
+    font-size: 1.25rem;
+    font-weight: 600;
+}

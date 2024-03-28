@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML & CSS Cheatsheet</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="language">
+<h1>HTML notes</h1>
+<h2>Resources</h2>
+<table>
+    <thead>
+        <tr>
+           <th>Name</th>
+           <th>Tag</th>
+           <th>Notes</th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Embedded image</td>
+            <td><p class="code">&lt;img src="filepath" alt="image-description"&gt;</p></td>
+            <td>img does not have a closing tag</td>
+        </tr>
+        <tr>
+            <td>Embedded video</td>
+            <td><p class="code">
+                &lt;video width="320" height="240" controls&gt;
+                &lt;source src="movie.mp4" type="video/mp4"&gt;
+                  Your browser does not support the video tag.
+                  &lt;/video&gt; 
+            </p></td>
+            <td>Included error message for broken video</td>
+        </tr>
+        <tr>
+            <td>Linked stylesheet</td>
+            <td><p class="code">&lt;link href="filepath" rel="stylesheet"&gt;</p></td>
+            <td>Use ../ to go up one directory</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Responsive layout</h2>
+<table>
+    <thead>
+        <tr>
+           <th>Name</th>
+           <th>Tag</th>
+           <th>Notes</th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Viewport</td>
+            <td><p class="code">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p></td>
+            <td>Tells page how to scale</td>
+        </tr>
+        <tr>
+            <td>Media query</td>
+            <td><p class="code">
+                @media only screen and (max-width: 800px) {
+                    selector {
+                      width: 100%;
+                    }
+            </p></td>
+            <td>Set breakpoints for each device</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div class="language">
+<h1>CSS notes</h1>
+<h2>Box model</h2>
+<table>
+    <thead>
+        <tr>
+           <th>Name</th>
+           <th>Tag</th>
+           <th>Notes</th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td><p class="code">&lt;img src="filepath" alt="image-description"&gt;</p></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><p class="code">
+                
+            </p></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><p class="code">&lt;link href="filepath" rel="stylesheet"&gt;</p></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<h2>Specificity</h2>
+<table>
+    <thead>
+        <tr>
+           <th>Name</th>
+           <th>Tag</th>
+           <th>Notes</th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td><p class="code">&lt;img src="filepath" alt="image-description"&gt;</p></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><p class="code">
+                &lt;video width="320" height="240" controls&gt;
+                &lt;source src="movie.mp4" type="video/mp4"&gt;
+                  Your browser does not support the video tag.
+                  &lt;/video&gt; 
+            </p></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><p class="code">&lt;link href="filepath" rel="stylesheet"&gt;</p></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</body>
+</html> 
