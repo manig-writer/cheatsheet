@@ -74,27 +74,36 @@
     <thead>
         <tr>
            <th>Name</th>
-           <th>Tag</th>
+           <th>Selector</th>
            <th>Notes</th> 
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td><p class="code">&lt;img src="filepath" alt="image-description"&gt;</p></td>
-            <td></td>
+            <td>Margin</td>
+            <td><p class="code">margin: 25px 50px 75px 100px;</p></td>
+            <td>
+    top margin is 25px
+    right margin is 50px
+    bottom margin is 75px
+    left margin is 100px
+            </td>
         </tr>
         <tr>
-            <td></td>
+            <td>Border</td>
             <td><p class="code">
-                
+                border: 5px solid red;
             </p></td>
-            <td></td>
+            <td> 
+                Total element width = width + left padding + right 
+                padding + left border + right border</td>
         </tr>
         <tr>
-            <td></td>
-            <td><p class="code">&lt;link href="filepath" rel="stylesheet"&gt;</p></td>
-            <td></td>
+            <td>Padding</td>
+            <td><p class="code">padding: 25px 50px 75px 100px;</p></td>
+            <td>
+                Total element height = height + top padding + bottom padding + top border + bottom border
+            </td>
         </tr>
     </tbody>
 </table>
@@ -103,30 +112,37 @@
     <thead>
         <tr>
            <th>Name</th>
-           <th>Tag</th>
+           <th>Selector</th>
            <th>Notes</th> 
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td><p class="code">&lt;img src="filepath" alt="image-description"&gt;</p></td>
-            <td></td>
+            <td>Inline style</td>
+            <td><p class="code">&lt;p style="color: pink;"&gt;</p></td>
+            <td>Specificity #1</td>
         </tr>
         <tr>
-            <td></td>
+            <td>ID</td>
             <td><p class="code">
-                &lt;video width="320" height="240" controls&gt;
-                &lt;source src="movie.mp4" type="video/mp4"&gt;
-                  Your browser does not support the video tag.
-                  &lt;/video&gt; 
+                #selector
             </p></td>
-            <td></td>
+            <td>Specificity #2</td>
         </tr>
         <tr>
-            <td></td>
-            <td><p class="code">&lt;link href="filepath" rel="stylesheet"&gt;</p></td>
-            <td></td>
+            <td>Class</td>
+            <td><p class="code">.selector</p></td>
+            <td>Specificity #3</td>
+        </tr>
+        <tr>
+            <td>Pseudo-class</td>
+            <td><p class="code">:hover</p></td>
+            <td>Specificity #3</td>
+        </tr>
+        <tr>
+            <td>Attribute</td>
+            <td><p class="code">a[attribute]</p></td>
+            <td>Specificity #3</td>
         </tr>
     </tbody>
 </table>
